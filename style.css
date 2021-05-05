@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Karla', sans-serif;
+  color: #575F7D;
+  font-size: 400;
+  line-height: 20px;
+}
+
+img {
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  padding: 10px 0px 30px 0px;
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  border: 1px dotted lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+.list-inline > li > a > i {
+  color: #79B998;
+}
+
+.list-inline:hover  > li > a > i {
+  color: #5b9e7b;
+}
+
+.btn-green {
+  background-color: #79B998;
+  color: #F7F9FC;
+  padding: 10px 20px;
+  border-radius: 7px;
+  line-height: 60px;
+}
+
+.btn-green:hover {
+  background-color: #5b9e7b;
+}
